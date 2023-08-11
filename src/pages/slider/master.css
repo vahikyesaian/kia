@@ -1,0 +1,118 @@
+.slider{
+    background-image:linear-gradient(to top,#05141f50,#09263a,#05141f); 
+    /* height: 60vh; */
+    overflow: hidden;
+
+}
+.slider>div{
+    cursor: pointer;
+
+}
+
+.fig1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fig2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fig3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fig4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fig5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fig6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.extra{
+    background-image: linear-gradient(#05141f50,#05141f1f,#05141f00);
+    /* height: 40vh; */
+}
+.info{
+    min-height: 50px;
+    padding-left: 100px;
+}
+.info>p:nth-of-type(1){
+    font-size: 1.8vw;
+    font-weight: bolder;
+}
+.info>h2{
+    font-size: 3vw;
+    text-transform: capitalize;
+}
+.info>div>p{
+    margin: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3vw;
+    /* background-color: aquamarine; */
+    font-weight: bold;
+    position: relative;
+}
+.info>div>p::after{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 70px;
+    background-color: rgba(128, 128, 128, 0.385);
+    position: absolute;
+    right: -10px;
+}
+.more{
+    min-height: 50px;
+}
+.more>section>a{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+    cursor: pointer;
+    
+}
+.more>section>a:nth-of-type(1){
+    position: relative;
+    text-transform: capitalize;
+}
+.more>section>a:nth-of-type(1):hover{
+    text-decoration: underline;
+}
+.more>section>a:nth-of-type(1)>span{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg);
+}
+.more>section>a:nth-of-type(2){
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    transition: .4s;
+}
+.more>section>a:nth-of-type(2):hover{
+    background-color: white;
+    color: black ;
+    border: 1px solid black;
+}

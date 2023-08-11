@@ -1,0 +1,400 @@
+@media screen and (max-width:576px) {
+    .fp>section {
+        min-height: 50px;
+        position: absolute;
+        top: 55%;
+        left: 5%;
+        padding: 0 10px;
+        text-transform: capitalize;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .thp>section>p:nth-of-type(1)>a {
+        display: none;
+    }
+
+    .thp>section>p:nth-of-type(2)>span {
+        display: none;
+    }
+
+    .thp>section>p {
+        margin: 0 20px;
+        font-size: 1.5vw;
+
+    }
+
+    .thp>section>p:nth-of-type(3)>span {
+        display: none;
+    }
+
+    .thp>section>p:nth-of-type(4)>span {
+        position: absolute;
+        top: -3px;
+        right: -15px;
+        transition: .4s;
+    }
+
+    .thp>section>p:nth-of-type(4):hover>span {
+        position: absolute;
+        top: -3px;
+        right: -20px;
+    }
+
+    .more>section>a:nth-of-type(1)>span {
+        position: absolute;
+        top: 15px;
+        right: 13px;
+    }
+
+    .fourthp>div:nth-of-type(1)>section>p {
+        transform: translateY(40px);
+
+    }
+
+    .fourthp>div:nth-of-type(1)>section>p>span {
+        position: absolute;
+        top: -6.5px;
+        right: -20px;
+    }
+    .fifth>section>figure>img{
+        width: 40%;
+    }
+    .sec1>p{
+        font-size: 12px;
+    }
+
+
+
+    /* end small mob */
+}
+
+@media screen and (min-width:577px) {
+    .thp>section>p:nth-of-type(1)>a {
+        display: none;
+
+    }
+
+    .thp>section>p:nth-of-type(2)>span {
+        display: none;
+    }
+
+    .thp>section>p {
+        margin: 0 10px;
+        font-size: 2vw;
+    }
+
+    .thp>section>p:nth-of-type(3)>span {
+        display: none;
+    }
+
+    .thp>section>p:nth-of-type(4)>span {
+        position: absolute;
+        top: 3px;
+        right: -25px;
+        transition: .4s;
+    }
+
+    .thp>section>p:nth-of-type(4):hover>span {
+        position: absolute;
+        top: 3px;
+        right: -30px;
+    }
+
+    .more>section>a:nth-of-type(1)>span {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+
+    .fourthp>div:nth-of-type(1)>section>p {
+        transform: translateY(60px);
+
+    }
+    .fourthp>div:nth-of-type(1)>section>p>span{
+        position: absolute;
+        top: -3px;right: -20px;
+    }
+    .fifth>section>figure>img{
+        width: 100%;
+    }
+
+    /* end big mobile */
+}
+
+@media screen and (min-width:768px) {
+
+    .tophead>section:nth-of-type(2)>ul>li {
+        font-size: 10px;
+    }
+
+    .tophead>section:nth-of-type(2)>ul>li>span {
+        font-size: 17px;
+    }
+
+    .tophead>section:nth-of-type(3)>a {
+        font-size: 13px;
+    }
+
+    .fp>section {
+        bottom: 40%;
+        left: 5%;
+
+    }
+
+    .sp {
+        height: 100vh;
+    }
+
+    .thp>section>p:nth-of-type(1)>a {
+        width: 35px;
+        height: 17.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid white;
+        font-size: 8px;
+        position: absolute;
+        top: 0;
+        right: -40px;
+
+    }
+
+    .thp>section>p:nth-of-type(2)>span {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(128, 128, 128, 0.607);
+        position: absolute;
+        top: 0;
+        right: -25px;
+        transition: .4s;
+    }
+
+    .thp>section>p {
+        margin: 0 35px;
+        font-size: 1.2vw;
+
+
+    }
+
+    .thp>section>p:nth-of-type(3)>span {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(128, 128, 128, 0.607);
+        position: absolute;
+        top: 0;
+        right: -25px;
+        transition: .4s;
+    }
+
+    .thp>section>p:nth-of-type(4)>span {
+        position: absolute;
+        top: -1px;
+        right: -20px;
+        transition: .4s;
+    }
+
+    .thp>section>p:nth-of-type(4):hover>span {
+        position: absolute;
+        top: -1px;
+        right: -25px;
+    }
+
+    .more>section>a:nth-of-type(1)>span {
+        position: absolute;
+        top: 16px;
+        right: 30px;
+    }
+    .fourthp>div:nth-of-type(1)>section>p>span{
+        position: absolute;
+        top: -2.5px;right: -20px;
+    }
+
+    /* end tablet */
+}
+
+@media screen and (min-width:992px) {
+    .tophead>section:nth-of-type(2)>ul>li {
+        font-size: 14px;
+    }
+
+    .tophead>section:nth-of-type(3)>a {
+        font-size: 16px;
+    }
+
+    .tophead>section:nth-of-type(2)>ul>li>span {
+        font-size: 20px;
+    }
+
+    .tophead>section:nth-of-type(2)>ul>span:nth-of-type(1) {
+        position: absolute;
+        top: 22px;
+        left: 14%;
+    }
+
+    .tophead>section:nth-of-type(2)>ul>span:nth-of-type(2) {
+        position: absolute;
+        top: 22px;
+        left: 39%;
+    }
+
+    .tophead>section:nth-of-type(2)>ul>span:nth-of-type(3) {
+        position: absolute;
+        top: 22px;
+        right: 19.5%;
+    }
+
+    .thp>section>p:nth-of-type(1)>a {
+        width: 35px;
+        height: 17.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid white;
+        font-size: 8px;
+        position: absolute;
+        top: 2px;
+        right: -40px;
+
+    }
+
+    .thp>section>p:nth-of-type(4)>span {
+        position: absolute;
+        top: 1px;
+        right: -25px;
+        transition: .4s;
+    }
+
+    .thp>section>p:nth-of-type(4):hover>span {
+        position: absolute;
+        top: 1px;
+        right: -30px;
+    }
+
+    .extra {
+        height: 40vh;
+    }
+
+    .fourthp>div:nth-of-type(1)>section>p {
+        transform: translateY(80px);
+
+    }
+    .fourthp>div:nth-of-type(1)>section>p>span{
+        position: absolute;
+        top: 1px;right: -20px;
+    }
+
+
+
+    /* end desktop */
+}
+
+@media screen and (min-width:1200px) {
+    .tophead>section:nth-of-type(2)>ul>span:nth-of-type(1) {
+        position: absolute;
+        top: 22px;
+        left: 13%;
+    }
+
+    .tophead>section:nth-of-type(2)>ul>span:nth-of-type(2) {
+        position: absolute;
+        top: 22px;
+        left: 37.5%;
+    }
+
+    .tophead>section:nth-of-type(2)>ul>span:nth-of-type(3) {
+        position: absolute;
+        top: 22px;
+        right: 21.5%;
+    }
+
+    .thp>section>p:nth-of-type(1)>a {
+        width: 35px;
+        height: 17.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid white;
+        font-size: 8px;
+        position: absolute;
+        top: 5px;
+        right: -40px;
+
+    }
+
+    .thp>section>p:nth-of-type(2)>span {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(128, 128, 128, 0.607);
+        position: absolute;
+        top: 5px;
+        right: -25px;
+        transition: .4s;
+    }
+
+    .thp>section>p:nth-of-type(3)>span {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(128, 128, 128, 0.607);
+        position: absolute;
+        top: 5px;
+        right: -25px;
+        transition: .4s;
+    }
+
+    .thp>section>p:nth-of-type(4)>span {
+        position: absolute;
+        top: 5px;
+        right: -25px;
+        transition: .4s;
+    }
+
+    .thp>section>p:nth-of-type(4):hover>span {
+        position: absolute;
+        top: 5px;
+        right: -30px;
+    }
+
+    .more>section>a:nth-of-type(1)>span {
+        position: absolute;
+        top: 16px;
+        right: 45px;
+    }
+    .fourthp>div:nth-of-type(1)>section>p>span{
+        position: absolute;
+        top: 3px;right: -20px;
+    }
+
+
+
+
+    /* end big desktop */
+}
+
+@media screen and (min-width:1400px) {
+    .fourthp>div:nth-of-type(1)>section>p>span{
+        position: absolute;
+        top: 7px;right: -25px;
+    }
+
+    /* end xxl */
+}

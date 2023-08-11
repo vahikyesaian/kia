@@ -1,0 +1,58 @@
+.sp{
+    background-color:   #05141f;
+    position: relative;
+    /* z-index: -10; */
+    
+}
+.sp>figure{
+    margin: 0 20px;
+    position: relative;
+    cursor: pointer;
+    transition: .4s;
+
+}
+.sp>figure:hover{
+    transform: scale(1.1);
+}
+.sp>figure>img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.sp>figure>section{
+    /* background-color: aqua; */
+    min-height: 60px;
+    position: absolute;
+    bottom: 10%;
+    padding: 0 20px;
+    
+}
+.sp>figure>section>p{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+}
+.sp>figure>section>h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: white;
+}
+.sp>figure>section>a{
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    transition: .4s;
+    color: aliceblue !important;
+    
+}
+.sp>figure>section>a:hover{
+    background-color: white;
+    color: black !important;
+}

@@ -1,0 +1,136 @@
+
+.fifth>section{
+    border-right: 1px solid gainsboro;
+}
+.fifth>section:nth-of-type(3){
+    border-right: none;
+}
+.fifth>section>figure{
+    height: 40%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.fifth>section>figure>img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.fifth>section>div{
+    height: 40%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fifth>section>div>figure{
+    transition: .4s;
+    /* background-color: aquamarine; */
+}
+.fifth>section>div:hover>figure{
+    transform: scale(1.1);
+}
+.fifth>section>div>figure{
+    height: 40%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifth>section>div>figure>img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.fifth>section:nth-of-type(1)>div>section{
+    width: 100%;
+    text-align: center;
+    height: 50%;
+}
+.fifth>section:nth-of-type(1)>div>section>*{
+    width: 100%;
+}
+.fifth>section:nth-of-type(2)>div>section{
+    width: 100%;
+    text-align: center;
+    height: 50%;
+}
+.fifth>section:nth-of-type(2)>div>section>*{
+    width: 100%;
+}
+.fifth>section:nth-of-type(3)>div>section{
+    width: 100%;
+    text-align: center;
+    height: 50%;
+}
+.fifth>section:nth-of-type(3)>div>section>*{
+    width: 100%;
+}
+
+.fifth>section:nth-of-type(1)>div>section>a{
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center ;
+    padding-top: 13px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.fifth>section:nth-of-type(1)>div>section>a:hover{
+    color: black;
+    background-color: white;
+    
+}
+.fifth>section:nth-of-type(2)>div>section>a:hover{
+    color: black;
+    background-color: white;
+    
+}
+.fifth>section:nth-of-type(3)>div>section>a:hover{
+    color: black;
+    background-color: white;
+    
+}
+.fifth>section:nth-of-type(2)>div>section>a{
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center ;
+    padding-top: 13px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .4s;
+}
+.fifth>section:nth-of-type(3)>div>section>a{
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center ;
+    padding-top: 13px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .4s;
+}

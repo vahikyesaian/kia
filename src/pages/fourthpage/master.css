@@ -1,0 +1,98 @@
+.fourthp{
+    height: 100vh;
+    /* border: 5px solid wheat; */
+}
+.fourthp>div:nth-of-type(1){
+    overflow: hidden;
+}
+.fourthp>div:nth-of-type(1)>section{
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+    border: 1px solid gainsboro;
+    
+}
+.fourthp>div:nth-of-type(1)>section:hover>p{
+    text-decoration: underline;
+}
+.fourthp>div:nth-of-type(1)>section:hover{
+    transform: scale(1.03);
+    overflow: hidden;
+    border: none;
+}
+.fourthp>div:nth-of-type(1)>section>p{
+    /* transform: translateY(80px); */
+    font-size: 1.5vw;
+    text-transform: capitalize;
+    position: relative;
+}
+.fourthp>div:nth-of-type(1)>section>p>span{
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 25px;
+    width: 25px;
+    /* position: absolute;
+    top: 8px;right: -25px; */
+}
+.fourthp>div:nth-of-type(1)>section:nth-of-type(1){
+    background-image: url(../../assets/img/fourthp1.png);
+    background-color: rgba(220, 220, 220, 0.337);
+}
+.fourthp>div:nth-of-type(1)>section:nth-of-type(2){
+    background-image: url(../../assets/img/fourthp2.png);
+}
+.fourthp>div:nth-of-type(1)>section:nth-of-type(3){
+    background-image: url(../../assets/img/fourthp3.png);
+}
+.fourthp>div:nth-of-type(1)>section:nth-of-type(4){
+    background-image: url(../../assets/img/fourthp4.png);
+    background-color: rgba(220, 220, 220, 0.337);
+}
+.fourthp>div:nth-of-type(2){
+    background-image: url(../../assets/img/fourthp5.webp);
+    background-position: center;
+    background-size: cover;
+   
+}
+.car{
+    min-height: 50px;
+    /* background-color: aqua; */
+    padding-left: 20px;
+
+}
+.car>p{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.car>h2{
+    font-size: 35px;
+    color: white;
+    text-transform: capitalize
+}
+.car>a{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    color: white !important;
+    cursor: pointer;
+    transition: .4s;
+}
+.car>a:hover{
+    background-color: white;
+    color: black !important;
+}
